@@ -2,5 +2,4 @@
 
 Aruba currently not working with Webmock
 
-These tests should fail with
-
+Aruba spins up it's own instance of the CLI, so it ignores things like Webmock.
