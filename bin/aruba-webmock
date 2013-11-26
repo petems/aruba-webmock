@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'open-uri'
+require 'json'
+
+#Random curl
+the_advice = JSON.parse(open('http://api.adviceslip.com/advice/1').string)
+puts the_advice['slip']['advice']
